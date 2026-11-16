@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Шпаргалка по Stardew Valley</title>
+  <meta name="description" content="Культуры, рыба, жители, праздники, карта и календарь посадок для Stardew Valley 1.6.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="#calendar">Шпаргалка по Stardew Valley</a>
+      <nav class="tabs" aria-label="Разделы">
+        <a href="#calendar" data-route="calendar">Календарь</a>
+        <a href="#crops" data-route="crops">Культуры</a>
+        <a href="#fish" data-route="fish">Рыба</a>
+        <a href="#villagers" data-route="villagers">Жители</a>
+        <a href="#map" data-route="map">Карта</a>
+        <a href="#festivals" data-route="festivals">Праздники</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <footer class="foot">
+    Данные по версии 1.6 из <a href="https://stardewvalleywiki.com/" target="_blank" rel="noopener">Stardew Valley Wiki</a>.
+    Неофициальный фанатский сайт. Stardew Valley принадлежит ConcernedApe.
+  </footer>
+
+  <dialog id="dlg"></dialog>
+
+  <script src="js/data/crops.js"></script>
+  <script src="js/data/fish.js"></script>
+  <script src="js/data/villagers.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
