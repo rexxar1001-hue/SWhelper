@@ -35,3 +35,4 @@
 
 Данные взяты из [Stardew Valley Wiki](https://stardewvalleywiki.com/). Сайт неофициальный.
 Игра Stardew Valley принадлежит ConcernedApe; оригинальные изображения игры в проект не включены.
+
